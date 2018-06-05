@@ -1,0 +1,104 @@
+body, html{
+	font-family: 'Merriweather', serif;
+	margin: 0;
+	height: 100%;
+}
+
+.header{
+	background-color: #B80003;	
+	padding: 20px, 16px;
+	text-align: center;
+}
+
+.logo{
+	margin: 20px 50px;
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+
+.menu{
+	background-color: #B80003;
+	overflow: hidden;
+}
+
+.menu a{
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 70px 50px
+}
+
+.menu a:hover{
+	background-color: white;
+	color:#232323;
+	
+
+}
+
+.img {
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(images/bg.jpg);
+	min-height: 50%;
+}
+
+.text{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+}
+
+
+.text .border{
+	background-color: #B80003;
+	color: white;
+	padding: 20px;
+	opacity: 0.85;
+	
+}
+
+.section{
+	text-align: center;	
+	padding: 50px 50px;
+}
+
+ul{
+	list-style-type: none;	
+	
+}
+
+.img2 {
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(images/bg2.jpg);
+	min-height: 50%;
+}
+
+.heading{
+	float: left;
+	text-align: center;
+	margin: 70px 50px;
+	font-size: 30px;
+	color:white;
+	text-transform: uppercase;
+}
+
+p{
+	line-height: 25px;
+}
